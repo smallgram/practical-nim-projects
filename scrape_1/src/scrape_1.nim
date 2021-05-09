@@ -9,7 +9,6 @@ let webpage = "https://store.steampowered.com/explore/new/"
 
 var client = newHttpClient()
 var contents = client.getContent(webpage)
-"con.html".writeFile(contents)
 
 if contents.len > 0:
   let xml = parseHtml(contents)

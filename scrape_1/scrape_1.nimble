@@ -5,6 +5,7 @@ author        = "smallgram"
 description   = "chapter one of the Practical Python Project book in Nim (a scraper)"
 license       = "MIT"
 srcDir        = "src"
+binDir        = "../bin"
 bin           = @["scrape_1"]
 
 
